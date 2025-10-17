@@ -1,6 +1,4 @@
-/* =========================
-   ESTILOS WATERGO - Minimalista Oscuro
-   ========================= */
+
 
 body {
     margin: 0;
@@ -98,9 +96,7 @@ header nav li {
     transform: scale(1.05);
 }
 
-/* =========================
-   SECCIONES
-   ========================= */
+
 section {
     padding: 60px 20px;
     max-width: 1200px;
@@ -167,9 +163,7 @@ section p, section ul, section li {
     padding-left: 20px;
 }
 
-/* =========================
-   FORMULARIOS
-   ========================= */
+
 form {
     background-color: #181818;
     padding: 25px;
@@ -206,9 +200,7 @@ form button:hover {
     transform: scale(1.03);
 }
 
-/* =========================
-   RESULTADOS DEL QUIZ
-   ========================= */
+
 #resultado, #resultadoAhorro {
     text-align: center;
     font-size: 1.2rem;
@@ -216,9 +208,7 @@ form button:hover {
     color: #90e0ef;
 }
 
-/* =========================
-   FOOTER
-   ========================= */
+
 footer {
     background-color: #001f33;
     color: #a9a9a9;
@@ -275,7 +265,6 @@ footer {
     transform: scale(1.03);
 }
 
-/* Barra de progreso */
 .progress-bar-container {
     width: 100%;
     background-color: #222;
@@ -293,9 +282,6 @@ footer {
     border-radius: 10px;
 }
 
-/* =========================
-   ANIMACIONES SUAVES
-   ========================= */
 section, header, footer {
     animation: fadeInUp 0.8s ease-in-out;
 }
@@ -305,9 +291,6 @@ section, header, footer {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* =========================
-   RESPONSIVE
-   ========================= */
 @media (max-width: 768px) {
     .image-text {
         flex-direction: column;
