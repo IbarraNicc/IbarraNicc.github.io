@@ -1,0 +1,319 @@
+/* =========================
+   ESTILOS WATERGO - Minimalista Oscuro
+   ========================= */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #00b4d8;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #90e0ef;
+}
+
+header {
+    background: #121212;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #001f33, #00334d);
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    opacity: 0.9;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #00b4d8;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #0077b6;
+    transform: scale(1.05);
+}
+
+/* =========================
+   SECCIONES
+   ========================= */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #00b4d8;
+}
+
+section p, section ul, section li {
+    font-size: 1rem;
+    color: #dcdcdc;
+    text-align: justify;
+}
+
+.cards, .tips-grid, .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.card, .tip, .stat {
+    background-color: #181818;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover, .tip:hover, .stat:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,180,216,0.3);
+}
+
+.card img, .tip img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.image-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.image-text img {
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.image-text ul {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* =========================
+   FORMULARIOS
+   ========================= */
+form {
+    background-color: #181818;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+form input, form select, form textarea {
+    background-color: #222;
+    color: #eaeaea;
+}
+
+form button {
+    background-color: #00b4d8;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #0077b6;
+    transform: scale(1.03);
+}
+
+/* =========================
+   RESULTADOS DEL QUIZ
+   ========================= */
+#resultado, #resultadoAhorro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #90e0ef;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+    background-color: #001f33;
+    color: #a9a9a9;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 0.9rem;
+    border-top: 1px solid #00334d;
+}
+.simulador {
+    text-align: center;
+}
+
+.calc-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #181818;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.calc-container label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 500;
+    color: #dcdcdc;
+}
+
+.calc-container select,
+.calc-container input[type="range"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #222;
+    color: #eaeaea;
+}
+
+.calc-container button {
+    background-color: #00b4d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.calc-container button:hover {
+    background-color: #0077b6;
+    transform: scale(1.03);
+}
+
+/* Barra de progreso */
+.progress-bar-container {
+    width: 100%;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 25px;
+    margin: 15px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #00b4d8, #90e0ef);
+    transition: width 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+/* =========================
+   ANIMACIONES SUAVES
+   ========================= */
+section, header, footer {
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+@media (max-width: 768px) {
+    .image-text {
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-text ul {
+        padding-left: 0;
+    }
+}
